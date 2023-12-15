@@ -1,0 +1,92 @@
+/* Estilos Globais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o Cabeçalho */
+.header {
+    background-color: #bbf3b3;
+    color: #043614;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    font-family: 'MinhaFontePersonalizada';
+    src: url('caminho/para/minha-fonte.woff2') format('woff2'),
+         url('caminho/para/minha-fonte.woff') format('woff');
+}
+
+.header img {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.header h1 {
+    font-size: 24px;
+}
+
+/* Estilos para a Navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #043614;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+nav a:hover {
+    color: #66BB6A;
+}
+
+
+/* Estilos para o Conteúdo Principal */
+main {
+    margin: 20px;
+}
+
+article, aside {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+article h2, aside h3 {
+    color: #333;
+}
+
+/* Estilos para o Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilos para Links */
+
+a:link {
+    text-decoration: none;
+    color: #043614;
+}
+
+a:hover {
+    color: #66BB6A;
+}
